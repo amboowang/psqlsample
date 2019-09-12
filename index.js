@@ -26,10 +26,10 @@ async function start() {
         for (let i = 0; i < sampleData.length; i++) {
             await insertRow(sampleData[i]);
         }
-
-        await client.end();        
     } catch (error) {
         console.error(error.message);        
+    } finally {
+        await client.end();      
     }
 }
 
