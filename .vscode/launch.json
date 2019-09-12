@@ -11,9 +11,9 @@
             "program": "${workspaceFolder}\\index.js",
             "env": {
                 "NODE_ENV": "development",
-                "PGUSER": "postgres",
-                "PGPASSWORD": "postgres",
-                "PGHOST": "mypostgresql.cnqskwlirkwq.ap-southeast-1.rds.amazonaws.com",
+                "PGUSER": "######",
+                "PGPASSWORD": "######",
+                "PGHOST": "####################################",
                 "PGDATABASE": "postgres",
                 "PGPORT" : "8080"
             }
